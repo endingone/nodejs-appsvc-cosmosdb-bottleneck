@@ -10,11 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: 'sktazureloadtestingwebapp01'
-  serviceConnection: 'LoadTestingConnection'
-  azureSubscriptionId: 'f6ed362e-df41-4175-ac5f-dda07adeb11b'
-  loadTestResource: 'skt-poc-load-testing-01'
-  loadTestResourceGroup: 'skt-poc-rg-05'
+  webAppName: '<Name of your webapp>'
+  serviceConnection: '<Name of your webARM Service connection>'
+  azureSubscriptionId: '<Azure subscriptionId>'
+  loadTestResource: '<Name of your load test resource>'
+  loadTestResourceGroup: '<Name of your load test resource group>'
   location: 'EAST US'
 
 
